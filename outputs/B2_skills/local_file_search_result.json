@@ -1,0 +1,15 @@
+{
+  "skill_name": "local_file_search",
+  "status": "error",
+  "input": {
+    "query": "Agent",
+    "root_dir": "missing",
+    "top_k": 5
+  },
+  "output": null,
+  "error": {
+    "type": "FileNotFoundError",
+    "message": "search directory not found: missing"
+  },
+  "latency_ms": 0.126
+}

@@ -1,0 +1,14 @@
+{
+  "skill_name": "file_reader",
+  "status": "error",
+  "input": {
+    "path": "docs/missing.txt",
+    "max_chars": 2000
+  },
+  "output": null,
+  "error": {
+    "type": "FileNotFoundError",
+    "message": "file not found: docs/missing.txt"
+  },
+  "latency_ms": 0.131
+}

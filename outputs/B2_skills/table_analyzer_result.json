@@ -1,0 +1,15 @@
+{
+  "skill_name": "table_analyzer",
+  "status": "error",
+  "input": {
+    "path": "tables/missing.csv",
+    "max_rows_preview": 5,
+    "describe": true
+  },
+  "output": null,
+  "error": {
+    "type": "FileNotFoundError",
+    "message": "table file not found: tables/missing.csv"
+  },
+  "latency_ms": 0.166
+}

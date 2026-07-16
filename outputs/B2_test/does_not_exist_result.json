@@ -1,0 +1,14 @@
+{
+  "skill_name": "does_not_exist",
+  "status": "error",
+  "input": {
+    "expression": "1+1"
+  },
+  "output": null,
+  "error": {
+    "code": "SYS-404",
+    "message": "未知 skill: 'does_not_exist'",
+    "details": {}
+  },
+  "latency_ms": 0
+}

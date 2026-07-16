@@ -1,0 +1,16 @@
+{
+  "skill_name": "code_executor",
+  "status": "success",
+  "input": {
+    "code": "result=1",
+    "timeout_s": 3
+  },
+  "output": {
+    "stdout": "",
+    "result": 1,
+    "execution_success": true,
+    "error": null
+  },
+  "error": null,
+  "latency_ms": 5.3
+}

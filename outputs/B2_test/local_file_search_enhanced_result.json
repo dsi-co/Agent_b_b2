@@ -1,0 +1,28 @@
+{
+  "skill_name": "local_file_search_enhanced",
+  "status": "success",
+  "input": {
+    "query": "Agent",
+    "file_types": [
+      "txt",
+      "md"
+    ],
+    "top_k": 3
+  },
+  "output": {
+    "results": [
+      {
+        "path": "docs/agent_intro.txt",
+        "score": 2,
+        "snippet": "Agent 系统通常由模型、工具、记忆和执行循环组成。 工具调用让模型能够读取本地文件、执行计算，并把结果用于后续回答。 Memory 为 Agent 提供全局...",
+        "size_kb": 0.2
+      }
+    ],
+    "stats": {
+      "total": 3,
+      "matched": 1
+    }
+  },
+  "error": null,
+  "latency_ms": 1.7
+}

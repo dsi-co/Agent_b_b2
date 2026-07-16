@@ -1,0 +1,15 @@
+{
+  "skill_name": "file_reader",
+  "status": "error",
+  "input": {
+    "path": "nonexistent/file.txt",
+    "max_chars": 100
+  },
+  "output": null,
+  "error": {
+    "code": "INPUT-404",
+    "message": "文件未找到: file not found: nonexistent/file.txt",
+    "details": {}
+  },
+  "latency_ms": 0
+}

@@ -1,0 +1,14 @@
+{
+  "skill_name": "calculator",
+  "status": "error",
+  "input": {
+    "path": "docs/agent_intro.txt",
+    "max_chars": 2000
+  },
+  "output": null,
+  "error": {
+    "type": "TypeError",
+    "message": "calculator() got an unexpected keyword argument 'path'"
+  },
+  "latency_ms": 0.005
+}

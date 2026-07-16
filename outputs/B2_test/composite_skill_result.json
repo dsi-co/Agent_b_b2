@@ -1,0 +1,48 @@
+{
+  "skill_name": "composite_skill",
+  "status": "success",
+  "input": {
+    "pipeline": [
+      {
+        "name": "算",
+        "skill": "calculator",
+        "input": {
+          "expression": "(1+2+3+4+5)*100"
+        },
+        "output_var": "n"
+      },
+      {
+        "name": "转",
+        "skill": "format_converter",
+        "input": {
+          "text": "$n.result",
+          "target_format": "json"
+        },
+        "output_var": "r"
+      }
+    ]
+  },
+  "output": {
+    "pipeline_status": "success",
+    "steps": [
+      {
+        "name": "算",
+        "skill": "calculator",
+        "status": "success",
+        "error": null
+      },
+      {
+        "name": "转",
+        "skill": "format_converter",
+        "status": "success",
+        "error": null
+      }
+    ],
+    "context_keys": [
+      "n",
+      "r"
+    ]
+  },
+  "error": null,
+  "latency_ms": 0
+}
